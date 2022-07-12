@@ -1,0 +1,46 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header component.
+// -----------------------------------------------------------------------------
+
+.header {
+    background-color: $header-bg-color;
+    padding: 29px 0;
+
+    &__container {
+        display: flex;
+    }
+
+    &__logo {
+        display: flex;
+        font-family: 'Samsung Sharp Sans', 'Arial', 'Helvetica', sans-serif;
+
+        & .text {
+            margin-left: 16px;
+            line-height: 1.1;
+
+            & span:first-of-type {
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 34px; // 34px
+            }
+            
+            & span:last-of-type {
+                text-transform: capitalize;
+                font-weight: 500;
+                font-size: 16px; //16px
+            }
+        }
+    }
+
+    &__actions {
+        flex-grow: 1;
+        flex-shrink: 1;
+        display: flex;
+        justify-content: right;
+    }
+
+    &__button {
+        padding: 14px;
+        font-size: 20px; //20px
+    }
+}

@@ -1,0 +1,15 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the container component.
+// -----------------------------------------------------------------------------
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px; //1024
+}
+
+@media screen and (max-width: 1300px) {
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+  }

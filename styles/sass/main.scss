@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+@import './utils/variables',
+        './utils/fonts';
+
+@import './base/reset';
+
+@import './components/container',
+        './components/buttons';
+
+@import './layout/header',
+        './layout/content';
+
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: $main-bg-color;
+}
+
+.main {
+    margin: 0 auto;
+    max-width: 1600px;
+    background-color: $main-bg-color;
+    height: $main-heigth;
+    position: relative;
+
+    &__decoration {
+        height: 100%;
+        max-height: 800px;
+        // height: 100%;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 0;
+    }
+}
+
+@media screen and (min-height: 1200px) {
+    .main {
+        &__decoration {
+            top: 0;
+        }
+    }
+  }
+
+  @media screen and (max-width: 1300px) {
+    .main {
+        &__decoration {
+            max-height: 700px;
+            // top: 0;
+        }
+    }
+  }
