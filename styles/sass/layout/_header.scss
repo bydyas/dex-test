@@ -8,6 +8,7 @@
 
     &__container {
         display: flex;
+        justify-content: space-between;
     }
 
     &__logo {
@@ -40,7 +41,7 @@
     }
 
     &__button {
-        padding: 14px;
+        padding: 14px 30px;
         font-size: 20px; //20px
     }
 }
