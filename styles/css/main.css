@@ -164,6 +164,7 @@ table {
 .header__button {
   padding: 14px 30px;
   font-size: 20px;
+  line-height: 1.3;
 }
 
 .main .content {
@@ -173,7 +174,7 @@ table {
 }
 .main .content__text .title {
   font-family: "Samsung Sharp Sans", "Arial", "Helvetica", sans-serif;
-  line-height: 1.3;
+  line-height: 1.113;
   font-size: calc(24px + 2.25vw);
   font-weight: 700;
   color: #0F2851;
@@ -184,7 +185,7 @@ table {
 .main .content__text .description {
   margin-top: calc(10px + 1.7223910841vh);
   font-family: "Eudoxus Sans", "Arial", "Helvetica", sans-serif;
-  line-height: 1.3;
+  line-height: 1.4;
   font-size: calc(14px + 0.5vw);
   font-weight: 400;
   color: #0F2851;
@@ -220,7 +221,7 @@ table {
   align-items: center;
   font-family: "Eudoxus Sans", "Arial", "Helvetica", sans-serif;
   font-size: calc(12px + 0.5vw);
-  line-height: 1.3;
+  line-height: 1.26;
   color: #0F2851;
 }
 .main .content__widget .description p {
